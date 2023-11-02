@@ -1579,7 +1579,7 @@ body {
     }
 }
 
-@media all and (max-width: 455px) { 
+@media all and (min-width: 320px) and (max-width: 455px) { 
     .head {
         display: flex;
         align-items: center;
@@ -1880,7 +1880,7 @@ body {
         display: flex;
         align-items: center;
         align-content: center;
-        gap: 4.5rem;
+        gap: 2.5rem;
         flex-wrap: wrap;
         padding-top: 1rem;
         padding-bottom: 1rem;
